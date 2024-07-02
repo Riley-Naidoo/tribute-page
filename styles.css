@@ -1,0 +1,51 @@
+*{
+    font-family: Tahoma;
+}
+
+#main{
+    background-color: rgb(224, 219, 219);
+    border-radius: 10px;
+    padding: 20px 10px;
+    width: 99%;
+    margin: auto;
+    margin-top: 40px;
+}
+#image{
+    max-width: 100%;
+}
+
+.figure{
+    background-color: white;
+    padding: 10px auto;
+    width: 98%;
+    margin: auto;
+    border-radius: 5px;
+    height:auto;
+}
+.figure > img , .figure > figcaption {
+    display: block;
+    margin: auto;
+}
+.figure > figcaption{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.figure > img{
+    margin-bottom: 20px;
+}
+
+h1, p, h2, h3{
+    text-align: center;
+}
+
+.timeline{
+    width: 35%;
+    margin: auto;
+}
+.timeline > cite{
+    text-align: center;
+}
+
+.timeline > ul > li{
+    margin-bottom: 20px;
+}
